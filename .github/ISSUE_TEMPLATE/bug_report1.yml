@@ -14,7 +14,7 @@ body:
     attributes:
       label: Expected behavior
       description:  How did you expect the library to behave? It’s fine if you’re not sure your understanding is correct. Just write down what you thought would happen.
-      value: "Write what you thought would happen."
+      placeholder: "Write what you thought would happen."
   - type: textarea
     id: actual-behavior
     attributes:
@@ -22,7 +22,7 @@ body:
       description:  Did something go wrong? 
                     Is something broken, or not behaving as you expected? Please attach screenshots and/or records! 
                     They are extremely helpful for diagnosing issues.
-      value: "Write what happened. Please add screenshots!"
+      placeholder: "Write what happened. Please add screenshots!"
   - type: textarea
     id: steps-to-reproduce
     attributes:
