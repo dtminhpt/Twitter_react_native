@@ -19,14 +19,20 @@ body:
     id: actual-behavior
     attributes:
       label: Actual behavior
-      description:  Did something go wrong? Is something broken, or not behaving as you expected? Please attach screenshots and/or records! They are extremely helpful for diagnosing issues.
+      description:  Did something go wrong? 
+                    Is something broken, or not behaving as you expected? Please attach screenshots and/or records! 
+                    They are extremely helpful for diagnosing issues.
       value: "Write what happened. Please add screenshots!"
   - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
       description:  Try to write a sequence of steps that anybody can repeat to see the issue.
-      value: "1.2.3"
+      value: |
+        1.
+        2.
+        3.
+        ...
   - type: input
     id: hero-design-version
     attributes:
