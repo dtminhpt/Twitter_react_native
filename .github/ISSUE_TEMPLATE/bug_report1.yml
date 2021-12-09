@@ -24,11 +24,7 @@ body:
     attributes:
       label: Steps to reproduce
       description:  Try to write a sequence of steps that anybody can repeat to see the issue.
-      value: |
-        1.
-        2.
-        3.
-        ...
+      value: "1.2.3"
   - type: input
     id: hero-design-version
     attributes:
