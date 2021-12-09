@@ -1,8 +1,7 @@
 name: Question
 description: Your concern or simply ask for how-to
-title: '[Question]:'
+title: '[ComponentName]Your question'
 labels: ["issue: question"]
-assignees: 'abc'
 body:
   - type: markdown
     attributes:
