@@ -6,7 +6,9 @@ assignees: 'abc'
 body:
   - type: markdown
     attributes:
-      value: "Please help us describe the issue in detail. A clearer description will have a faster action. An issue submitted without preparation, we will close it immediately."
+      value: "Please help us describe the issue in detail. 
+             A clearer description will have a faster action. 
+             An issue submitted without preparation, we will close it immediately."
   - type: textarea
     id: expected-behavior
     attributes:
