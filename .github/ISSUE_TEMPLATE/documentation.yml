@@ -1,0 +1,20 @@
+name: Documentation enhancement
+description: Enhance or fix documentation
+title: '[Documentation]:'
+labels: ["issue: documentation", "verifying - DO NOT take action"]
+assignees: 'abc'
+body:
+  - type: markdown
+    attributes:
+      value: Please help us describe the issue in detail. A clearer description will have             a faster action.
+             An issue submitted without preparation, we will close it immediately.
+  - type: textarea
+    id: what-is-wrong
+    attributes:
+      label: What is wrong/missing?
+      description: Describe anything wrong/missing with the current documentation.
+                   You may attach the documenation link here.
+      placeholder: "Write your answer here."
+  - type: markdown
+    attributes:
+      value: "Thanks for completing our form!" 
