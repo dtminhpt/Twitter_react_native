@@ -1,0 +1,65 @@
+name: Bug Report
+description: Describe a bug
+title: ''
+labels: ["issue: bug report", "verifying - DO NOT take action"]
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please help us describe the issue in detail. A clearer description will have a faster action.
+        An issue submitted without preparation, we will close it immediately.
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description:  How did you expect the library to behave?
+      It’s fine if you’re not sure your understanding is correct.
+      Just write down what you thought would happen.
+      value: "Write what you thought would happen."
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description:  Did something go wrong?
+      Is something broken, or not behaving as you expected?
+      Please attach screenshots and/or records! They are extremely helpful for diagnosing issues.
+      value: "Write what happened. Please add screenshots!"
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description:  Try to write a sequence of steps that anybody can repeat to see the issue.
+      value: |
+        1.
+        2.
+        3.
+        ...
+  - type: input
+    id: hero-design-version
+    attributes:
+      label: Hero design version
+      description: Specify the version of the environment where the issue happened.
+      placeholder: Fill in here
+    validations:
+      required: true
+  - type: input
+    id: OS
+    attributes:
+      label: OS
+      description: Specify the OS where the issue happened.
+      placeholder: Fill in here
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Specify the Browser where the issue happened.
+      placeholder: Fill in here
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+    value: "Thanks for completing our form!"
+  
