@@ -1,8 +1,8 @@
 name: Bug Report
 description: Describe a bug
-title: ''
+title: '[Bug]:'
 labels: ["issue: bug report", "verifying - DO NOT take action"]
-assignees: ''
+assignees: 'abc'
 body:
   - type: markdown
     attributes:
