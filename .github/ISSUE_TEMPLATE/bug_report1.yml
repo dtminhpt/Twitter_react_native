@@ -19,9 +19,7 @@ body:
     id: actual-behavior
     attributes:
       label: Actual behavior
-      description:  Did something go wrong?
-      Is something broken, or not behaving as you expected?
-      Please attach screenshots and/or records! They are extremely helpful for diagnosing issues.
+      description:  Did something go wrong? Is something broken, or not behaving as you expected? Please attach screenshots and/or records! They are extremely helpful for diagnosing issues.
       value: "Write what happened. Please add screenshots!"
   - type: textarea
     id: steps-to-reproduce
