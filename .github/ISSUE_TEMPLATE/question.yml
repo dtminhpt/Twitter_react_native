@@ -1,0 +1,19 @@
+name: Question
+description: Your concern or simply ask for how-to
+title: '[Question]:'
+labels: ["issue: question"]
+assignees: 'abc'
+body:
+  - type: markdown
+    attributes:
+      value: Please help us describe the issue in detail. A clearer description will have a faster action.
+             An issue submitted without preparation, we will close it immediately.
+  - type: textarea
+    id: describe-your-need
+    attributes:
+      label: Describe your need or concern
+      description: Provide a clear and concise description of what the question or concern is. For example, "How to ... " or "I'm not clear about ..."
+      placeholder: "Write your answer here."
+  - type: markdown
+    attributes:
+      value: "Thanks for completing our form!" 
