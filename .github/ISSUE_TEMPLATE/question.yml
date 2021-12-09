@@ -1,6 +1,5 @@
 name: Question
 description: Your concern or simply ask for how-to
-title: '[ComponentName]Your question'
 labels: ["issue: question"]
 body:
   - type: markdown
