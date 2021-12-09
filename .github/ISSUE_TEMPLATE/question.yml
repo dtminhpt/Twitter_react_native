@@ -8,6 +8,8 @@ body:
     attributes:
       value: Please help us describe the issue in detail. A clearer description will have a faster action.
              An issue submitted without preparation, we will close it immediately.
+    validations:
+      required: true
   - type: textarea
     id: describe-your-need
     attributes:
