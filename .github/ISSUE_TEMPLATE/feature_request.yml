@@ -2,11 +2,11 @@ name: Feature request
 description: Request to implemement a feature
 title: '[Feature]:'
 labels: ["issue: feature request", "verifying - DO NOT take action"]
-assignees: 'abc'
+assignees: ''
 body:
   - type: markdown
     attributes:
-      value: Please help us describe the issue in detail. A clearer description will have             a faster action.
+      value: Please help us describe the issue in detail. A clearer description will have a faster action.
              An issue submitted without preparation, we will close it immediately.
   - type: textarea
     id: what-problem
