@@ -13,9 +13,7 @@ body:
     id: expected-behavior
     attributes:
       label: Expected behavior
-      description:  How did you expect the library to behave?
-      It’s fine if you’re not sure your understanding is correct.
-      Just write down what you thought would happen.
+      description:  How did you expect the library to behave? It’s fine if you’re not sure your understanding is correct. Just write down what you thought would happen.
       value: "Write what you thought would happen."
   - type: textarea
     id: actual-behavior
