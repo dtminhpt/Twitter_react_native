@@ -19,6 +19,8 @@ body:
       label: Describe the solution you'd like
       description: Provide a clear and concise description of what you want to happen. Describe the proposed API or UI/UX if possible.
       placeholder: "Describe your proposed solution here."
+    validations:
+      required: true
   - type: textarea
     id: describe-alternatives
     attributes:
