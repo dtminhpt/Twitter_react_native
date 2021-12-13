@@ -1,27 +1,23 @@
 name: Feature request
 description: Request to implemement a feature
-title: '[Feature]:'
 labels: ["issue: feature request", "verifying - DO NOT take action"]
-assignees: ''
 body:
   - type: markdown
     attributes:
-      value: Please help us describe the issue in detail. A clearer description will have a faster action.
-             An issue submitted without preparation, we will close it immediately.
+      value: Please help us describe the issue in detail. A clearer description will have a faster action.An issue submitted without preparation, we will close it immediately.
   - type: textarea
     id: what-problem
     attributes:
       label: What problem does this feature solve?
-      description: Provide a clear and concise description of what the request is. For ex                   ample, "I want to ... because ..."
-                   Addionally, you have to explain the use case, context, and rationale b                   ehind this feature request.
+      description: Provide a clear and concise description of what the request is. For example, "I want to ... because ...". Addionally, you have to explain the use case, context, and rationale behind this feature request.
       placeholder: "Write your answer here."
-
+    validations:
+      required: true
   - type: textarea
     id: describe-the-solution
     attributes:
       label: Describe the solution you'd like
-      description: Provide a clear and concise description of what you want to happen.
-                   Describe the proposed API or UI/UX if possible.
+      description: Provide a clear and concise description of what you want to happen. Describe the proposed API or UI/UX if possible.
       placeholder: "Describe your proposed solution here."
   - type: textarea
     id: describe-alternatives
@@ -29,6 +25,5 @@ body:
       label: Describe alternatives you've considered
       description: Let us know about other solutions you've tried or researched.
       placeholder: "Write your answer here."
-  - type: markdown
-    attributes:
-      value: "Thanks for completing our form!" 
+    validations:
+      required: true
