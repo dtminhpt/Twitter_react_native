@@ -42,18 +42,18 @@ body:
     validations:
       required: true
   - type: input
-    id: OS
+    id: android
     attributes:
-      label: OS
-      description: Specify the OS where the issue happened.
+      label: Android
+      description: Specify the Android where the issue happened.
       placeholder: Fill in here
     validations:
       required: true
   - type: input
-    id: browser
+    id: ios
     attributes:
-      label: Browser
-      description: Specify the Browser where the issue happened.
+      label: iOS
+      description: Specify the iOS where the issue happened.
       placeholder: Fill in here
     validations:
       required: true
