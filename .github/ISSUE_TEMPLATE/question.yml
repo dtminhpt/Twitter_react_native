@@ -4,15 +4,12 @@ labels: ["issue: question"]
 body:
   - type: markdown
     attributes:
-      value: Please help us describe the issue in detail. A clearer description will have a faster action.
-             An issue submitted without preparation, we will close it immediately.
-    validations:
-      required: true
+      value: Please help us describe the issue in detail. A clearer description will have a faster action. An issue submitted without preparation, we will close it immediately.
   - type: textarea
     id: describe-your-need
     attributes:
       label: Describe your need or concern
-      description: Provide a clear and concise description of what the question or concern is. For example, "How to ... " or "I'm not clear about ..."
+      description: Provide a clear and concise description of what the question or concen is. For example, "How to ... " or "I'm not clear about ..."
       placeholder: "Write your answer here."
     validations:
       required: true
