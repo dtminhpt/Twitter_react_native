@@ -1,0 +1,59 @@
+name: Bug Report 2
+description: Describe a bug
+labels: ["issue: bug report", "verifying - DO NOT take action"]
+body:
+  - type: markdown
+    attributes:
+      value: Please help us describe the issue in detail. A clearer description will have a faster action. An issue submitted without preparation, we will close it immediately.
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description:  How did you expect the library to behave? It’s fine if you’re not sure your understanding is correct. Just write down what you thought would happen.
+      placeholder: "Write what you thought would happen."
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description:  Did something go wrong? Is something broken, or not behaving as you expected? Please attach screenshots and/or records! They are extremely helpful for diagnosing issues.
+      placeholder: "Write what happened. Please add screenshots!"
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description:  Try to write a sequence of steps that anybody can repeat to see the issue.
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: input
+    id: hero-design-version
+    attributes:
+      label: Hero design version
+      description: Specify the version of the environment where the issue happened.
+      placeholder: Fill in here
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android
+      description: Specify the Android where the issue happened.
+      placeholder: Fill in here
+    validations:
+      required: true
+  - type: input
+    id: ios
+    attributes:
+      label: iOS
+      description: Specify the iOS where the issue happened.
+      placeholder: Fill in here
+    validations:
+      required: true
